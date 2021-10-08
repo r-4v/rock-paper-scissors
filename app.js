@@ -189,7 +189,7 @@ function gameLoop(playerSelection) {
       resultDiv.textContent = "Grats! You won.";
       console.log("Grats! You won.");
     } else if (playerScore < computerScore) {
-      resultDiv.textContent = "Bow down to the Machine Overlord!"
+      resultDiv.textContent = "Bow down to the RNGesus!"
       console.log("Machine Overlord");
     } else { 
       resultDiv.textContent = "Game Tied"
